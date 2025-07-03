@@ -30,9 +30,11 @@
           <button class="hidden md:flex text-purple-600 hover:text-purple-700 text-sm px-3 py-1 rounded">
             Sign Up
           </button>
-          <button class="hidden md:flex bg-purple-600 hover:bg-purple-700 text-white text-sm px-6 py-1 rounded-full">
-            Log In
-          </button>
+          <router-link to="/home">
+            <button class="hidden md:flex bg-purple-600 hover:bg-purple-700 text-white text-sm px-6 py-1 rounded-full">
+              Log In
+            </button>
+          </router-link>
           <button class="p-2">
             <ShoppingBag class="w-5 h-5" />
           </button>

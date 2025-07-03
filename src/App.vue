@@ -1,22 +1,12 @@
-
 <template>
-
-  <Header />
-  <Hero />
-  <Footer />
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
-  import Footer from './components/Footer.vue';
-  import Header from './components/Header.vue';
-  import Hero from './components/Hero.vue';
 
-  export default
-  {
-    components: {
-      Header,
-      Hero,
-      Footer,
-    },
-  }
+export default {
+  name: 'App',
+}
 </script>
