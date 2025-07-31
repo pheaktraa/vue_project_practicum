@@ -3,15 +3,17 @@
     <div class="container mx-auto px-4">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
-        <div class="flex items-center space-x-2">
-          <div class="w-10 h-10 bg-gradient-to-br from-purple-400 to-pink-300 rounded-full flex items-center justify-center">
-            <span class="text-white font-bold text-sm">C</span>
+         <a href="/home">
+          <div class="flex items-center space-x-2">
+            <div class="w-10 h-10 bg-gradient-to-br from-purple-400 to-pink-300 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-sm">C</span>
+            </div>
+            <div>
+              <h1 class="text-lg font-bold text-gray-900">Celeste Skincare</h1>
+              <p class="text-xs text-purple-600">Glow Naturally, Shine Elegantly</p>
+            </div>
           </div>
-          <div>
-            <h1 class="text-lg font-bold text-gray-900">Celeste Skincare</h1>
-            <p class="text-xs text-purple-600">Glow Naturally, Shine Elegantly</p>
-          </div>
-        </div>
+        </a>
 
         <!-- Desktop Navigation -->
         <nav class="hidden lg:flex items-center space-x-8">
@@ -27,10 +29,12 @@
 
         <!-- User Actions -->
         <div class="flex items-center space-x-4">
-          <button class="hidden md:flex text-purple-600 hover:text-purple-700 text-sm px-3 py-1 rounded">
-            Sign Up
-          </button>
-          <router-link to="/home">
+          <router-link to="/signup">
+            <button class="hidden md:flex text-purple-600 hover:text-purple-700 text-sm px-3 py-1 rounded">
+              Sign Up
+            </button>
+          </router-link>
+          <router-link to="/login">
             <button class="hidden md:flex bg-purple-600 hover:bg-purple-700 text-white text-sm px-6 py-1 rounded-full">
               Log In
             </button>
@@ -58,12 +62,16 @@
             {{ item }}
           </a>
           <div class="flex flex-col space-y-2 pt-3 border-t">
-            <button class="text-purple-600 hover:text-purple-700 text-sm text-left px-3 py-1">
-              Sign Up
-            </button>
-            <button class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-1 rounded-full">
-              Log In
-            </button>
+            <router-link to="/signup">
+              <button class="text-purple-600 hover:text-purple-700 text-sm text-left px-3 py-1">
+                Sign Up
+              </button>
+            </router-link>
+            <router-link to="/login">
+              <button class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-1 rounded-full">
+                Log In
+              </button>
+            </router-link>
           </div>
         </nav>
       </div>
