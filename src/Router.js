@@ -4,7 +4,7 @@ import HomePage from '../src/pages/HomePage.vue';
 import LogInPage from '../src/pages/LogIn.vue';
 import SignUpPage from '../src/pages/SignUp.vue';
 import Index from './pages/lip/index.vue';
-import LipButter from './pages/lip/Lipbutter.vue'; // 👈 Example component
+import LipButter from './pages/lip/Lipbutter.vue';
 import Carddetail from './components/cardfordetail.vue';
 import Lipoils from './pages/lip/Lipoils.vue';
 import Lipcare from './pages/lip/lipcare.vue';

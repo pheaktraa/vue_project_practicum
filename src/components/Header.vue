@@ -76,7 +76,7 @@
         <!-- Desktop Navigation -->
         <nav class="hidden lg:flex items-center ms-[-20px]">
           <a
-            href="#"
+            href="/home"
             class="text-gray-700 hover:text-purple-600 lg:text-[11px] xl:text-[14px] transition-colors font-bold ml-[15px]"
           >
             Home
@@ -113,12 +113,14 @@
             </g>
           </svg>
           <cart></cart>
+          <router-link to="/signup" v-if="$route.path !== '/signup'">
           <button
             class="text-purple-600 hover:text-purple-700 text-[11px] xl:text-sm px-3 py-1 rounded hidden lg:flex"
           >
             Sign Up
           </button>
-          <router-link to="/home">
+          </router-link>
+          <router-link to="/login" v-if="$route.path !== '/login'">
             <button
               class="bg-purple-600 hover:bg-purple-700 text-white text-[10px] xl:text-sm px-6 py-1 hidden lg:flex rounded-full"
             >
