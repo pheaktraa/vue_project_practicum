@@ -1,7 +1,5 @@
 <template>
-  <Header />
   <Hero />
-  <Footer />
 </template>
 
 <script>
