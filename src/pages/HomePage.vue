@@ -1,10 +1,8 @@
 <template>
     <div class="min-h-screen">
-      <Header />
       <Hero />
       <ProductTypes />
       <ProductShowcase />
-      <Footer />
     </div>
   </template>
   
