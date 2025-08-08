@@ -1,9 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import LandingPage from '../src/pages/LandingPage.vue';
 import HomePage from '../src/pages/HomePage.vue';
-import ContactPage from '../src/pages/ContactPage.vue';
+
+
+import LogInPage from '../src/pages/LogIn.vue';
+import SignUpPage from '../src/pages/SignUp.vue';
 import Index from './pages/lip/index.vue';
-import LipButter from './pages/lip/Lipbutter.vue'; // 👈 Example component
+import LipButter from './pages/lip/Lipbutter.vue';
 import Carddetail from './components/cardfordetail.vue';
 import Lipoils from './pages/lip/Lipoils.vue';
 import Lipcare from './pages/lip/lipcare.vue';
@@ -11,7 +14,8 @@ import Lipcare from './pages/lip/lipcare.vue';
 const routes = [
   { path: '/', component: LandingPage },
   { path: '/home', component: HomePage },
-  { path: '/contact', component: ContactPage },
+  { path: '/login', component: LogInPage},
+  { path: '/signup', component: SignUpPage},
   {
     path: '/lipbutter',
     component: Index,
