@@ -13,13 +13,13 @@
         </div>
 
         <!-- Navigation link -->
-        <div class="absolute top-3 left-3 z-10 sm:top-4 sm:left-4 md:top-6 md:left-6">
+        <!-- <div class="absolute top-3 left-3 z-10 sm:top-4 sm:left-4 md:top-6 md:left-6">
           <router-link to="/"
             class="inline-flex items-center gap-1 sm:gap-2 bg-purple-700/90 backdrop-blur-sm border border-white/20 text-white sm:px-2.5 px-2 py-1 sm:py-2 rounded-full hover:bg-purple-600 transition-all duration-300 hover:scale-105 text-[10px] sm:text-xs md:text-sm">
             <ArrowLeft class="w-3 h-3 md:w-5 md:h-5 sm:w-3 sm:h-3" :color="'white'" />
             <span class="pl-0.5">Back to Home</span>
           </router-link>
-        </div>
+        </div> -->
 
         <!-- Form Container -->
         <div class="container mx-auto px-2 sm:px-4 py-8 flex items-center justify-center min-h-screen">
@@ -106,7 +106,7 @@
       </div>
     </main>
     <!-- Footer -->
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
