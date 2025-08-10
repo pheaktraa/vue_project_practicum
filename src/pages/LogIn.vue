@@ -1,15 +1,5 @@
 <template>
-  <!-- Back button is so out of place, should be remove? -->
-
-  <!-- <button type="button" class=" text-xl p-5 text-center inline-flex items-center gap-2">
-    <svg class=" w-4 h-4 rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-    </svg>
-    <p class="font-bold pb-1">Back</p>
-  </button> -->
-
-  <!-- my-18 if use back button -->
-  <div class="flex flex-col items-center justify-center my-40 "> 
+  <div class="flex flex-col items-center justify-center py-40 "> 
     <form class="w-[550px] bg-white shadow-2xl rounded-2xl p-12">
       <div class="mx-8 space-y-4">
         <!-- Head -->
